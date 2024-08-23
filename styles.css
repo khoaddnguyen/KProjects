@@ -2,7 +2,7 @@
      margin: 0;
      padding: 0;
      font-family: "JetBrains Mono", monospace;
-}
+    }
 
 html {
     background-color: #f5f5f5;
@@ -10,7 +10,7 @@ html {
 
 body {
     background-color: #f5f5f5;
-}
+    }
 
 main {
     margin: 0 auto;
@@ -25,7 +25,7 @@ header {
     align-items: flex-start;
     justify-content: space-between;
     gap: 1rem;
-}
+    }
 
 header .site-title {
     font-size: 4rem;
@@ -33,38 +33,77 @@ header .site-title {
     line-height: 110%
     }
 
+h2 {
+    font-size: 22.4px;
+    font-style: italic;
+    font-weight: 100
+    }
+
+a:link {
+  text-decoration: none;
+    }
+
 #bio {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-}
+    }
 
 
-img {
+.avatar {
     width: 120px;
     height: auto;
     border-radius: 50%;
     object-fit: fill
-}
+    }
+
+.icon {
+    width: 25px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: fill
+    }
 
 div {
     display: block;
     unicode-bidi: isolate;
-}
+    padding: 11px
+    }
+
+div .social-wrapper {
+    padding: 50px 50px 50px 50px
+    }
 
 section {
     display: block;
     unicode-bidi: isolate;
-}
+    }
+
+section.articles {
+    margin: 64px 0px 48px}
 
 article {
     display: block;
     unicode-bidi: isolate;
-}
+    padding: 30px;
+    background-color: #e8e8e8;
+    border-radius: 15px
+    }
 
-.articles .article {
-    padding: 2rem;
-    background: var(--gray-3);
+.articles {
+    display: grid;
+    row-gap: 2rem;
+    margin: 4rem 0 3rem 0;
+    }
+
+small {
+    font-size: smaller
+    }
+
+a.category {
+    color: white;
+    font-size: 13px;
+    background-color: black;
     border-radius: 15px;
-    transition: all 0.2s ease-in-out;
-}
+    padding: 5px;
+    }
