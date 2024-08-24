@@ -33,16 +33,6 @@ header .site-title {
     line-height: 110%
     }
 
-h2 {
-    font-size: 22.4px;
-    font-style: italic;
-    font-weight: 100
-    }
-
-a:link {
-  text-decoration: none;
-    }
-
 #bio {
     display: flex;
     justify-content: flex-start;
@@ -80,7 +70,28 @@ section {
     }
 
 section.articles {
-    margin: 64px 0px 48px}
+    margin: 30px 0px 60px}
+
+.thumbnail {
+    top:-50px;
+    left:-35px;
+    display:block;
+    z-index:999;
+    cursor: pointer;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    font-size: 22.4px;
+    font-style: italic;
+    font-weight: 100
+    }
 
 article {
     display: block;
@@ -89,6 +100,7 @@ article {
     background-color: #e8e8e8;
     border-radius: 15px
     }
+
 
 .articles {
     display: grid;
@@ -100,10 +112,19 @@ small {
     font-size: smaller
     }
 
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+ }
+
 a.category {
     color: white;
     font-size: 13px;
     background-color: black;
     border-radius: 15px;
-    padding: 5px;
+    padding: 3px;
+    }
+
+div.categories {
+    padding: 10px 10px 10px 0px
     }
