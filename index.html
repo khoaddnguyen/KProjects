@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Khoa Nguyen</title>
+    <title>Khoa N.</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -10,16 +10,11 @@
     <main>
         <header>
                 <a class="site-title">Khoa N.</a>
-                <span id="dark-mode-toggle" style="cursor: pointer">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg">
-                <path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm0 13V2a6 6 0 1 1 0 12z"></path>
-                    </svg>
-                </span>
         </header>
 
         <section id="bio">
             <section id="img-wrapper">
-                <img class="avatar" src="cat.png">
+                <img class="avatar" src="static/profile.jpg">
             </section>
 
             <section id="bio-wrapper">
@@ -30,42 +25,34 @@
 
 
                 <div id="social-wrapper">
-                    <img class="icon" src="github.png">
-                    <img class="icon" src="linkedin.png">
-                    <img class="icon" src="email.png">
+                    <a href="https://github.com/khoaddnguyen"><img class="icon" src="github.png"></a>
+                    <a href="https://www.linkedin.com/in/khoa-n-2a25147a/"><img class="icon" src="linkedin.png"></a>
+                    <a href="mailto:khoaddnguyen@gmail.com"><img class="icon" src="email.png"></a>
                 </div>
-
             </section>
         </section>
 
         <section class="articles">
-
-            <article class="article">
-                <h2 class="article-title">
-                    <a href="">Coffee Shop
-                    </a>
-                </h2>
-                <small class="description">Project description</small>
-                <div class="categories">
-                    <a class="category">HTML</a>
-                    <a class="category">CSS</a>
-                    <a class="category">Python: Flask</a>
-                </div>
+            <article class="article thumbnail"><a href="https://github.com/khoaddnguyen/Coffee-Shop">
+                    <h2 class="article-title">Coffee Shop</h2>
+                    <small class="description">Replica of the trendy oat milk online store "Minor Figure" </small>
+                    <div class="categories">
+                        <a class="category">HTML</a>
+                        <a class="category">CSS</a>
+                        <a class="category">Python: Flask</a>
+                    </div>
+                </a>
             </article>
 
-                        <article class="article">
-                <h2 class="article-title">
-                    <a href="">Coffee Machine OOP
-                    </a>
-                </h2>
-                <small class="description">Project description</small>
-                <div class="categories">
-                    <a class="category">HTML</a>
-                    <a class="category">CSS</a>
-                    <a class="category">Python: Flask</a>
-                </div>
+            <article class="article thumbnail"><a href="https://github.com/khoaddnguyen/P37-HabitTracker_viaPixela">
+                    <h2 class="article-title">Habit Tracker</h2>
+                    <small class="description">Quick and easy gadget to monitor your habits and progress towards your goals. Built with Pixela API.</small>
+                    <div class="categories">
+                        <a class="category">Python</a>
+                        <a class="category">Pixela</a>
+                    </div>
+                </a>
             </article>
-
         </section>
 
         <footer>© All Rights Reserved</footer>
